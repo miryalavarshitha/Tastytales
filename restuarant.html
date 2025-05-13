@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./res.css">
+    <title>TastyTales</title>
+    <link rel="shortcut icon" href="C:\Users\mirya\OneDrive\Desktop\html\.vscode\TastyTales_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./TastyTales_logo.jpg" width="60px" alt="not available">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Restuarant</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link ">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    
+    <!--header-->
+    <header>
+        <div class="content p-3">
+            <!--title-->
+            <div class="border rounded mb-3 px-3 title">
+                <h1 class="display-5 fw-bold">Welcome to TastyTales</h1>
+                <p class="lead text-white">where food comes first</p>
+            </div>
+            <img src="./roundedfood12.jpg" class="rounded-circle mb-2" width="200px" height="200px" alt="not available">
+            <div class=" w-50 mx-auto display-6 text-center banner">
+                Made with Love <br>Serving with Quality
+            </div>
+        </div>
+    </header>
+    <!--main content-->
+    <!-- Main Content -->
+<!-- Main Content -->
+<div class="container main ms-auto mt-4 me-auto">
+  <div class="row g-3">
+    <!-- Card 1 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4 h-auto" style="max-width: 250px;">
+        <img src="./food1.jpg" alt="Orange Chicken" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Orange Chicken</h6>
+          <p class="card-text text-muted small">Crispy chicken pieces garnished with sesame seeds and green onions.</p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange1" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange1">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Spice Level</li>
+              <li class="list-group-item small">Add-ons</li>
+              <li class="list-group-item small">Dietary Restrictions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4 h-auto" style="max-width: 250px;">
+        <img src="./food2.jpg" alt="Chicken Biryani" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Chicken Biryani</h6>
+          <p class="card-text text-muted small">Hyderabadi Biryani is a spiced rice dish with tender chicken, cooked to perfection.</p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange2" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange2">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Spice Level</li>
+              <li class="list-group-item small">Add-ons</li>
+              <li class="list-group-item small">Dietary Restrictions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--card3-->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4" style="max-width: 250px;">
+        <img src="./food3.jpg" alt="Tandoori Chicken" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Tandoori Chicken</h6>
+          <p class="card-text text-muted small">Juicy and flavorful chicken marinated in aromatic spices and roasted to perfection.</p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange3" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange3">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Spice Level</li>
+              <li class="list-group-item small">Add-ons</li>
+              <li class="list-group-item small">Dietary Restrictions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4" style="max-width: 250px;">
+        <img src="./food4.jpg" alt="Samosa" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Samosa</h6>
+          <p class="card-text text-muted small">Crispy golden pastry pockets filled with spicy potato and peas, fried to perfection for a delightful crunch.</p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange4" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange4">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Spice Level</li>
+              <li class="list-group-item small">Add-ons</li>
+              <li class="list-group-item small">Dietary Restrictions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4" style="max-width: 250px;">
+        <img src="./food5.jpg" alt="Veg Manchuria" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Veg Manchuria</h6>
+          <p class="card-text text-muted small">Succulent vegetable balls tossed in a tangy Indo-Chinese sauce, bursting with bold flavors and spice.</p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange5" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange5">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Spice Level</li>
+              <li class="list-group-item small">Add-ons</li>
+              <li class="list-group-item small">Dietary Restrictions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4" style="max-width: 250px;">
+        <img src="./food6.jpg" alt="Veg Thali" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Veg Thali</h6>
+          <p class="card-text text-muted small">A wholesome platter featuring a variety of curries, rice, roti, and pickles, offering a perfect balance of taste and tradition.
+
+          </p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange6" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange6">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Spice Level</li>
+              <li class="list-group-item small">Add-ons</li>
+              <li class="list-group-item small">Dietary Restrictions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4" style="max-width: 250px;">
+        <img src="./food12.jpg" alt="Panner Butter Masala" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Panner Butter Masala</h6>
+          <p class="card-text text-muted small">Soft cubes of paneer simmered in a rich, creamy tomato gravy infused with aromatic Indian spices.</p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange12" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange12">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Spice Level</li>
+              <li class="list-group-item small">Add-ons</li>
+              <li class="list-group-item small">Dietary Restrictions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4" style="max-width: 250px;">
+        <img src="./food13.jpg" alt="Pizza" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Pizza</h6>
+          <p class="card-text text-muted small">Cheesy, oven-baked goodness topped with vibrant vegetables and zesty tomato sauce on a crisp, golden crust.</p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange13" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange13">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Spice Level</li>
+              <li class="list-group-item small">Add-ons</li>
+              <li class="list-group-item small">Dietary Restrictions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4" style="max-width: 250px;">
+        <img src="./food7.jpg" alt="Gulabjamun" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Gulabjamun</h6>
+          <p class="card-text text-muted small">Soft, syrup-soaked dumplings made from khoya, melting in the mouth with every bite of sweet bliss.</p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange7" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange7">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Spice Level</li>
+              <li class="list-group-item small">Add-ons</li>
+              <li class="list-group-item small">Dietary Restrictions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4" style="max-width: 250px;">
+        <img src="./food8.jpg" alt="Icecreams" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Ice creams</h6>
+          <p class="card-text text-muted small">Cool and creamy dessert available in endless flavors, perfect for refreshing your senses on a hot day.</p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange8" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange8">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Choclate</li>
+              <li class="list-group-item small">Vanilla</li>
+              <li class="list-group-item small">Butterscotch</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4" style="max-width: 250px;">
+        <img src="./food9.jpg" alt="Mocktails" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Mocktails</h6>
+          <p class="card-text text-muted small">Colorful, fizzy drinks blended with fruit juices and herbs, offering a fun and refreshing alternative to cocktails.</p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange9" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange9">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Virgin Pina Colada</li>
+              <li class="list-group-item small">Strawberry Mojito</li>
+              <li class="list-group-item small">Citrus Fizz</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card mt-4" style="max-width: 250px;">
+        <img src="./food10.jpg" alt="Waffles" class="card-img-top" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h6 class="card-title">Waffles</h6>
+          <p class="card-text text-muted small">Golden, crispy-on-the-outside and fluffy-on-the-inside treats served with syrup, fruits, or ice cream.</p>
+          <button class="btn btn-outline-warning btn-sm" data-bs-target="#orange10" data-bs-toggle="collapse">Customize</button>
+          <div class="collapse mt-2" id="orange10">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item small">Double Choclate</li>
+              <li class="list-group-item small">Choclate</li>
+              <li class="list-group-item small">Vanilla </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!--footer-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>We serve fresh and delicious food with love and quality.</p>
+        </div>
+    
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>&copy; 2025 TastyTales. All rights reserved.</p>
+      </div>
+    </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
